@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<!--日期对象以及相应的函数-->
+<!--<p th:text="${#dates.format(date,'yyyy-MM-dd')}"></p>-->
+<hr>
+<!--数值对象-->
+<!--<p th:text="${#numbers.formatDecimal(num,1,2)}"></p>-->
+<!--<p th:text="${#numbers.sequence(1,10)}"></p>-->
+
+<!--字符串对象以及函数-->
+<p th:text="${str}"></p>
+<hr>
+<p th:text="${#strings.substring(str,50)}"></p>
+<p th:text="${#strings.abbreviate(str,50)}"></p>
+</body>
+</html>
