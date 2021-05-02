@@ -33,4 +33,8 @@ public class ThymeleafController {
                 "Thymeleaf也从一开始就设计了Web标准 - 特别是HTML5 - 允许您创建完全验证的模板，如果这是您需要的\r\n");
         return "index.html";
     }
+
+    public String forth(){
+        return null;
+    }
 }
